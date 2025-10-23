@@ -1,8 +1,10 @@
 FROM centos:7
 
+LABEL description="Building this image for Ubuntu containers"
 LABEL maintainer="My first test"
 
-RUN yum -y update && yum clean all
+# Executing the command to upddate the package linux operating system
+RUN yum -y update && yum clean all 
 
 RUN yum -y install httpd 
 
