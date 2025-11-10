@@ -3,7 +3,7 @@ AWSTemplateFormatVersion: '2010-09-09'
 Metadata:
   License: Apache-2.0
   Authors:
-    Description: Joseph Mbatchou  # The writer of this template
+    Description: Joseph Mbatchou  
   Description: " This template launches an ubuntu ec2 instance in a custom VPC, with an IAM assume role attached to it
               for SSM, then with the user data it will install Docker and Jenkins"
 
